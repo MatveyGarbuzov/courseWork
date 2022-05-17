@@ -62,9 +62,8 @@ struct ConnectFourSettingsView: View {
                 }
 
             }
-                        
+            .navigationTitle("Connect Four Settings")
         }
-        .navigationTitle("Connect Four Settings")
         Spacer()
     }
 }
