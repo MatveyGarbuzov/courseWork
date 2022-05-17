@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum DefaultSettings {
+enum DefaultProfileSettings {
     static var red:   Double = 150.0
     static var green: Double = 77.0
     static var blue:  Double = 250.0

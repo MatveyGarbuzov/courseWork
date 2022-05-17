@@ -33,9 +33,9 @@ struct ProfileSettingsView: View {
 }
 
 struct ProfileSettings: View {
-    @AppStorage(UserDefaults.name) var name = DefaultSettings.name
-    @AppStorage(UserDefaults.subtitle) var subtitle = DefaultSettings.subtitle
-    @AppStorage(UserDefaults.description) var description = DefaultSettings.description
+    @AppStorage(UserDefaults.name) var name = DefaultProfileSettings.name
+    @AppStorage(UserDefaults.subtitle) var subtitle = DefaultProfileSettings.subtitle
+    @AppStorage(UserDefaults.description) var description = DefaultProfileSettings.description
     
     var body: some View {
         Section(header: Text("Profile")) {
@@ -55,9 +55,9 @@ struct ProfileSettings: View {
 }
 
 struct HeaderBackgroundSliders: View {
-    @AppStorage("red") var red = DefaultSettings.red
-    @AppStorage("green") var green = DefaultSettings.green
-    @AppStorage("blue") var blue = DefaultSettings.blue
+    @AppStorage(UserDefaults.red) var red = DefaultProfileSettings.red
+    @AppStorage(UserDefaults.green) var green = DefaultProfileSettings.green
+    @AppStorage(UserDefaults.blue) var blue = DefaultProfileSettings.blue
     
     var body: some View {
         Section(header: Text("Header Background Color")) {

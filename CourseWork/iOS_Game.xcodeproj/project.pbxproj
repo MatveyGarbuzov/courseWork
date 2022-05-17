@@ -38,7 +38,7 @@
 		1C8CA6E62823452D00F02D91 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6E52823452D00F02D91 /* Colors.swift */; };
 		1C8CA6E82823457E00F02D91 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C8CA6E72823457E00F02D91 /* Colors.xcassets */; };
 		1C8CA6F02823DFE700F02D91 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6EF2823DFE700F02D91 /* ProfileView.swift */; };
-		1C8CA6F22823E52500F02D91 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6F12823E52500F02D91 /* DefaultSettings.swift */; };
+		1C8CA6F22823E52500F02D91 /* DefaultProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6F12823E52500F02D91 /* DefaultProfileSettings.swift */; };
 		1C8CA6F42823E65D00F02D91 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6F32823E65D00F02D91 /* Header.swift */; };
 		1C8CA6FE2823F2AB00F02D91 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6FD2823F2AB00F02D91 /* ProfileSettingsView.swift */; };
 		1C8CA7002823F36500F02D91 /* CustomColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8CA6FF2823F36500F02D91 /* CustomColorSlider.swift */; };
@@ -79,7 +79,7 @@
 		1C8CA6E52823452D00F02D91 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1C8CA6E72823457E00F02D91 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1C8CA6EF2823DFE700F02D91 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		1C8CA6F12823E52500F02D91 /* DefaultSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
+		1C8CA6F12823E52500F02D91 /* DefaultProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultProfileSettings.swift; sourceTree = "<group>"; };
 		1C8CA6F32823E65D00F02D91 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		1C8CA6FD2823F2AB00F02D91 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
 		1C8CA6FF2823F36500F02D91 /* CustomColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorSlider.swift; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 				1C8CA6E52823452D00F02D91 /* Colors.swift */,
 				1C05E9232832B5D000526375 /* Styles.swift */,
 				1C05E9252832C2F400526375 /* UserDefaults.swift */,
-				1C8CA6F12823E52500F02D91 /* DefaultSettings.swift */,
+				1C8CA6F12823E52500F02D91 /* DefaultProfileSettings.swift */,
 				1C6221DD2825DCC900951786 /* GameStatistics.swift */,
 			);
 			path = Resources;
@@ -416,7 +416,7 @@
 				1C6221D72825816100951786 /* MinesweeperQuestionView.swift in Sources */,
 				1C8CA7002823F36500F02D91 /* CustomColorSlider.swift in Sources */,
 				1C05E9132827F6FF00526375 /* ConnectFourQuestionView.swift in Sources */,
-				1C8CA6F22823E52500F02D91 /* DefaultSettings.swift in Sources */,
+				1C8CA6F22823E52500F02D91 /* DefaultProfileSettings.swift in Sources */,
 				1C05E9262832C2F400526375 /* UserDefaults.swift in Sources */,
 				1C82EBB227E07FB400E8E81B /* TicTacToeView.swift in Sources */,
 				1C82EBA927DF2ED500E8E81B /* TicTacToeGameModel.swift in Sources */,

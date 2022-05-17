@@ -68,9 +68,9 @@ struct ProfileView: View {
 
 
 struct ProfileText: View {
-    @AppStorage(UserDefaults.name) var name = DefaultSettings.name
-    @AppStorage(UserDefaults.subtitle) var subtitle = DefaultSettings.subtitle
-    @AppStorage(UserDefaults.description) var description = DefaultSettings.description
+    @AppStorage(UserDefaults.name) var name = DefaultProfileSettings.name
+    @AppStorage(UserDefaults.subtitle) var subtitle = DefaultProfileSettings.subtitle
+    @AppStorage(UserDefaults.description) var description = DefaultProfileSettings.description
     
     var body: some View {
         ScrollView {
