@@ -22,7 +22,7 @@ struct MinesweeperSettingsView: View {
             Form {
                 Stepper(
                     value: $gameSettings.numberOfBombs,
-                    in: 1...gameSettings.numberOfSquares,
+                    in: 1...15,
                     step: 1) {
                     Text("Bombs count: \(gameSettings.numberOfBombs)")
                 }
@@ -30,7 +30,7 @@ struct MinesweeperSettingsView: View {
                 
                 Stepper(
                     value: $gameSettings.numberOfRows,
-                    in: 1...10,
+                    in: 4...20,
                     step: 1) {
                     Text("Rows count: \(gameSettings.numberOfRows)")
                 }
@@ -38,7 +38,7 @@ struct MinesweeperSettingsView: View {
     
                 Stepper(
                     value: $gameSettings.numberOfColumns,
-                    in: 1...10,
+                    in: 4...20,
                     step: 1) {
                     Text("Columns count: \(gameSettings.numberOfColumns)")
                 }
