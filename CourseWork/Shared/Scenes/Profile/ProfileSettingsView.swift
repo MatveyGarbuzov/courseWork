@@ -39,14 +39,14 @@ struct ProfileSettings: View {
     
     var body: some View {
         Section(header: Text("Profile")) {
-            Button (
-                action: {
-                    // Action
-                },
-                label: {
-                    Text("Pick Profile Image")
-                }
-            )
+//            Button (
+//                action: {
+//                    // Action
+//                },
+//                label: {
+//                    Text("Pick Profile Image")
+//                }
+//            )
             TextField("Name", text: $name)
             TextField("Subtitle", text: $subtitle)
             TextEditor(text: $description)
