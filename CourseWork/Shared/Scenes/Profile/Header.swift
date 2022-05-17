@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct Header: View {
-    @AppStorage("red") var red = DefaultSettings.red
-    @AppStorage("green") var green = DefaultSettings.green
-    @AppStorage("blue") var blue = DefaultSettings.blue
+    @AppStorage(UserDefaults.red) var red = DefaultSettings.red
+    @AppStorage(UserDefaults.green) var green = DefaultSettings.green
+    @AppStorage(UserDefaults.blue) var blue = DefaultSettings.blue
 
-    @AppStorage("xp") var xp = DefaultSettings.xp
-    @AppStorage("level") var level = DefaultSettings.level
+    @AppStorage(UserDefaults.xp) var xp = DefaultSettings.xp
+    @AppStorage(UserDefaults.level) var level = DefaultSettings.level
     
     var body: some View {
         ZStack(alignment: .top) {

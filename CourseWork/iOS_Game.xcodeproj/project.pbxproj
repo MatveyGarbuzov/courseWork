@@ -177,6 +177,8 @@
 				1C8CA6E52823452D00F02D91 /* Colors.swift */,
 				1C05E9232832B5D000526375 /* Styles.swift */,
 				1C05E9252832C2F400526375 /* UserDefaults.swift */,
+				1C8CA6F12823E52500F02D91 /* DefaultSettings.swift */,
+				1C6221DD2825DCC900951786 /* GameStatistics.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -212,11 +214,9 @@
 			children = (
 				1C8CA6EF2823DFE700F02D91 /* ProfileView.swift */,
 				1C6221DF2826B5CA00951786 /* StatisticsView.swift */,
-				1C8CA6F12823E52500F02D91 /* DefaultSettings.swift */,
 				1C8CA6F32823E65D00F02D91 /* Header.swift */,
 				1C8CA6FF2823F36500F02D91 /* CustomColorSlider.swift */,
 				1C8CA6FD2823F2AB00F02D91 /* ProfileSettingsView.swift */,
-				1C6221DD2825DCC900951786 /* GameStatistics.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";

@@ -26,4 +26,11 @@ enum UserDefaults {
     // Connect Four
     static let gamesWonInConnectFour = "gamesWonInConnectFour"
     static let gamesLostInConnectFour = "gamesLostInConnectFour"
+    
+    // Profile
+    static let red = "red"
+    static let green = "green"
+    static let blue = "blue"
+    static let xp = "xp"
+    static let level = "level"
 }
